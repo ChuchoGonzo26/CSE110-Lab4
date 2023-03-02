@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/name"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +44,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3"
-        android:importantForAutofill="no" />
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/status_textview"
@@ -51,6 +52,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/status"
+        android:importantForAutofill="no"
         android:inputType="textShortMessage"
         android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,5 +60,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        android:importantForAutofill="no" />
+        tools:ignore="TouchTargetSizeCheck" />
 </androidx.constraintlayout.widget.ConstraintLayout>
